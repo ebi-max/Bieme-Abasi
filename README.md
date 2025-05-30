@@ -8,7 +8,7 @@ setup(
     description="A tool to check network configurations against security policies.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/ebassey/network-config-checker",
+    url="https://github.com/Bieme-Abasi/network-config-checker",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     install_requires=[
@@ -28,4 +28,4 @@ setup(
             "network-config-checker=main:main",
         ],
     },
-)# ebassey 
+)# Bieme-Abasi 
